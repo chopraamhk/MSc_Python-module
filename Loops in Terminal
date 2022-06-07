@@ -1,0 +1,21 @@
+#Python in shell script #command_line 
+##usage of loops in more than one file.
+
+for i in {1..22};
+> do
+> <COMMAND>;
+> done
+
+#### OR
+
+for chrn in samplename.chr*.sam.gz:
+do 
+<COMMAND>
+done
+
+#### OR
+
+for chrn in samplename.chr*.sam.gz:
+do
+<COMMAND>
+done
