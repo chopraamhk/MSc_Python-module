@@ -1,0 +1,12 @@
+DNA = input("Enter DNA sequence: ") 
+print(DNA) 
+G = DNA.count("g") 
+C = DNA.count("c") 
+A = DNA.count("a") 
+T = DNA.count("t") 
+GC_per = ((G+C)/(A+G+C+T))*100 
+print("A's count is", +A, '\n') 
+print("G's count is", +G, '\n') 
+print("C's count is", +C, '\n') 
+print("T's count is", +T, '\n') 
+print("GC Percentage of DNA :", + GC_per, '\n') 
